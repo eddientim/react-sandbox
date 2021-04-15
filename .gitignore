@@ -1,0 +1,28 @@
+# dependencies
+*.node_modules
+
+# testing
+coverage
+.nyc_output
+mochawesome-report
+pacts
+logs
+server/log
+
+# misc
+.DS_Store
+.env
+npm-debug.log*
+version.json
+version.txt
+local.sh
+.eslintcache
+
+# ide
+.sublime-project
+.idea/
+*.iml
+*.iws
+.vscode/
+*.swp
+*.swo
