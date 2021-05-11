@@ -1,8 +1,8 @@
-import React, {ReactElement} from 'react';
-import ReactDOM from 'react-dom';
 import {Router} from 'react-router-dom';
 import {createBrowserHistory} from "history";
 import App from "./App";
+import { ReactElement } from 'react';
+import ReactDOM = require('react-dom');
 
 const history = createBrowserHistory();
 
