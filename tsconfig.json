@@ -3,11 +3,15 @@
     "outDir": "./dist/",
     "sourceMap": true,
     "module": "esnext",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "target": "es5",
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "skipLibCheck": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -21,5 +25,7 @@
     "noImplicitAny": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["./src/"]
+  "include": [
+    "./src/"
+  ]
 }
