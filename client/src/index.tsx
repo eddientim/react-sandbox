@@ -3,6 +3,7 @@ import {createBrowserHistory} from "history";
 import App from "./App";
 import React, { ReactElement } from 'react';
 import ReactDOM from 'react-dom';
+import './index.scss';
 
 const history = createBrowserHistory();
 
