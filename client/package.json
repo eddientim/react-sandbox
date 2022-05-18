@@ -2,9 +2,6 @@
   "name": "react-sandbox",
   "vesion": "0.0.1",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.12.0",
-    "@testing-library/react": "^11.2.2",
-    "@testing-library/user-event": "^13.1.8",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
@@ -15,7 +12,7 @@
     "history": "^5.0.0"
   },
   "scripts": {
-    "start": "../node_modules/.bin/react-scripts start",
+    "start": "PORT=3500 react-scripts start",
     "build": "../node_modules/.bin/react-scripts build",
     "test": "../node_modules/.bin/react-scripts test",
     "eject": "../node_modules/.bin/react-scripts eject"
@@ -42,6 +39,12 @@
     "@types/react": "^17.0.5",
     "@types/react-dom": "^17.0.4",
     "@types/react-router-dom": "^5.1.5",
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.12",
+    "@testing-library/jest-dom": "^5.11.1",
+    "@testing-library/react": "^10.4.7",
+    "@testing-library/react-hooks": "3.4.1",
+    "@testing-library/user-event": "12.1.6",
+    "eslint-plugin-react": "7.20.4",
+    "eslint-plugin-react-hooks": "^4.0.8"
   }
 }
