@@ -11,7 +11,7 @@
     "build:client": "cd client && npm run build",
     "build:server": "cd server && npm run build",
     "build:all": "npm run build:client && npm run build:server",
-    "start": "concurrently -n \"Server,Client\" -c \"yellow, green\" --kill-others \"npm run start:server\" \"npm run start:client\"",
+    "start": "concurrently -n \"Client\" -c \"yellow, green\" --kill-others \"npm run start:client\"",
     "start:client": "cd client && npm start",
     "start:server": "cd server && npm start",
     "test": "npm run test:server && npm run test:client"
