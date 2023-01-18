@@ -10,7 +10,10 @@
     "redux": "^4.2.0",
     "sass": "^1.32.12",
     "typescript": "^4.2.4",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "history": "^5.0.0",
+    "react-select": "3.1.0",
+    "react-tracking": "8.1.0"
   },
   "scripts": {
     "start": "PORT=3500 react-scripts start",
@@ -46,6 +49,7 @@
     "@testing-library/react-hooks": "3.4.1",
     "@testing-library/user-event": "12.1.6",
     "eslint-plugin-react": "7.20.4",
-    "eslint-plugin-react-hooks": "^4.0.8"
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "typescript": "^4.9.3"
   }
 }
