@@ -6,6 +6,6 @@ import * as React from "react";
 describe('<Homepage/>', () => {
     it('Should render the homepage title', () => {
         render(<Homepage/>);
-        expect(screen.getByText('Homepage Welcome')).toBeInTheDocument();
+        expect(screen.getByText('Welcome')).toBeInTheDocument();
     })
 });

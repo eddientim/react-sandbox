@@ -7,7 +7,7 @@ function Homepage(): ReactElement {
     return (
         <>
             <div className={styles.title}>
-                <h1>Homepage Welcome</h1>
+                <h1>Welcome</h1>
             </div>
         </>
     );
